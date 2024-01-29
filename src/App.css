@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.title{
+background:linear-gradient(75deg, rgb(212, 8, 8),rgb(116, 177, 116),rgb(225, 55, 12),rgb(163, 10, 117));
+font-size: 80px;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+filter: drop-shadow( 15px 10px 3px black);
+}
+button{
+  margin: 5px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  color: rgb(244, 240, 240);
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+}
+input{
+  height: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
